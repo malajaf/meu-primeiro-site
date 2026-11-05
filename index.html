@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Montador de Móveis em Sorocaba | Montagem e Desmontagem</title>
+    <meta name="description" content="Montagem e desmontagem de móveis em Sorocaba e região. Solicite um orçamento.">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Montador de Móveis em Sorocaba</h1>
+        <p>Montagem com cuidado e profissionalismo.</p>
+    </header>
+
+    <main>
+        <!--Primeira Section-->
+        <section class="apresentacao">
+            <h2>Seus móveis montados do jeito certo</h2>
+            <p>Montagem e desmontagem de móveis residenciais e comerciais.</p>
+            <a class="botao" 
+           
+            target="_blank"
+            rel="noopener noreferrer">
+            
+            Solicitar orçamento</a>
+        </section>
+
+        <!--Segunda Section-->
+        <section class="servicos">
+            <h2>Nossos Serviços</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Montagem de móveis</h3>
+                <p>Móveis novos, modulados e sob medida.</p>
+            </div>
+
+            <div class="card">
+                <h3>Desmontagem</h3>
+                <p>Desmontagem para mudanças e transporte.</p>
+            </div>
+
+            <div class="card">
+                <h3>Móveis comerciais</h3>
+                <p>Montagem para lojas e empresas.</p>
+            </div>
+        </div>
+        <!--nossos serviços-->
+         <button id="botao-detalhes" type="button">
+            Ver detalhes dos serviços
+         </button>
+        <p id="mensagem-servico"></p>
+
+        <div id="detalhes-servicos" hidden>
+
+        <h3>Como funciona nosso atendimento?</h3>
+        <p>
+            Entre em contato para informar quais móveis
+            precisam de montagem ou desmontagem e solicitar
+            um orçamento personalizado.
+            </p>
+        </div>
+            <!--Sessão orçamentos-->
+        <div class="orcamento">
+    <h3>Consulte nossos serviços</h3>
+
+    <label for="nome">Seu nome:</label>
+    <input
+    id="nome"
+    type="text"
+    placeholder="Digite seu nome"
+>
+
+    <label for="tipo-movel">Qual móvel precisa de serviço?</label>
+    <input
+    id="tipo-movel"
+    type="text"
+    placeholder="Ex.: guarda-roupa, cama, cômoda"
+>
+
+    <label for="servico">Escolha o serviço:</label>
+    <select id="servico">
+        <option value="Montagem de móveis">Montagem de móveis</option>
+        <option value="Desmontagem de móveis">Desmontagem de móveis</option>
+        <option value="Montagem de móveis comerciais">Móveis comerciais</option>
+    </select>
+
+    <label for="cidade">Sua cidade:</label>
+    <input
+        id="cidade"
+        type="text"
+        placeholder="Digite sua cidade"
+    >
+
+    <button id="consultar" type="button">
+    Consultar serviço
+</button>
+
+<button id="whatsapp-orcamento" type="button">
+    Solicitar orçamento pelo WhatsApp
+</button>
+
+<p id="resultado-orcamento"></p>
+
+<div id="resumo-orcamento" hidden>
+    <h4>Confira seus dados</h4>
+    <p id="dados-orcamento"></p>
+</div>
+
+</div>
+</section>
+    </main>
+
+    <footer>
+        <h1>Montador de Móveis em Sorocaba e região</h1>
+    </footer>
+    
+<script src="js/script.js"></script>
+</body>
+</html>
